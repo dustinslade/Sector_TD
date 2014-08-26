@@ -1,0 +1,189 @@
+# depslib dependency file v1.0
+1322843192 source:c:\users\james\desktop\f11-cs48-tower-defense78000\accessoptions.cpp
+	"AccessOptions.h"
+
+1322772468 c:\users\james\desktop\f11-cs48-tower-defense78000\accessoptions.h
+	<SFML/Graphics.hpp>
+	<SFML/Window.hpp>
+	"Button.h"
+	"GameHandler.h"
+	"World.h"
+
+1322812836 c:\users\james\desktop\f11-cs48-tower-defense78000\button.h
+	"Position.h"
+
+1322812838 c:\users\james\desktop\f11-cs48-tower-defense78000\position.h
+
+1322867357 c:\users\james\desktop\f11-cs48-tower-defense78000\gamehandler.h
+	"PathFinder.h"
+	"World.h"
+	"WorldObj.h"
+	"Player.h"
+	"AccessOptions.h"
+	"SlowEnemy.h"
+	"FastEnemy.h"
+	"Sidebar.h"
+	"EnemyHandler.h"
+	<SFML/Audio.hpp>
+	<fstream>
+	<iostream>
+	<string>
+	<sstream>
+	<cstdlib>
+
+1322839952 c:\users\james\desktop\f11-cs48-tower-defense78000\pathfinder.h
+	"World.h"
+	"WorldObj.h"
+	<queue>
+	<vector>
+	<list>
+	<cmath>
+
+1322860906 c:\users\james\desktop\f11-cs48-tower-defense78000\world.h
+	"WorldObj.h"
+
+1322838944 c:\users\james\desktop\f11-cs48-tower-defense78000\worldobj.h
+	<SFML/System.hpp>
+	<SFML/Graphics.hpp>
+	<iostream>
+	"World.h"
+
+1322867360 c:\users\james\desktop\f11-cs48-tower-defense78000\player.h
+	<iostream>
+	"WorldObj.h"
+	"BulletTower.h"
+	"RocketTower.h"
+	"PathFinder.h"
+	<typeinfo>
+
+1322825300 c:\users\james\desktop\f11-cs48-tower-defense78000\bullettower.h
+	"ProjectileTower.h"
+	"Bullet.h"
+
+1322837478 c:\users\james\desktop\f11-cs48-tower-defense78000\projectiletower.h
+	"Tower.h"
+	"Projectile.h"
+	"Enemy.h"
+	<SFML/Audio.hpp>
+	<cmath>
+
+1322838872 c:\users\james\desktop\f11-cs48-tower-defense78000\tower.h
+	"WorldObj.h"
+	<vector>
+
+1322837370 c:\users\james\desktop\f11-cs48-tower-defense78000\projectile.h
+	"WorldObj.h"
+	"Enemy.h"
+
+1322869251 c:\users\james\desktop\f11-cs48-tower-defense78000\enemy.h
+	"WorldObj.h"
+	"PathFinder.h"
+	<iostream>
+
+1322825330 c:\users\james\desktop\f11-cs48-tower-defense78000\bullet.h
+	"Projectile.h"
+	"Enemy.h"
+
+1322825294 c:\users\james\desktop\f11-cs48-tower-defense78000\rockettower.h
+	"ProjectileTower.h"
+	"Rocket.h"
+
+1322825502 c:\users\james\desktop\f11-cs48-tower-defense78000\rocket.h
+	"Projectile.h"
+
+1322869235 c:\users\james\desktop\f11-cs48-tower-defense78000\slowenemy.h
+	"Enemy.h"
+
+1322869240 c:\users\james\desktop\f11-cs48-tower-defense78000\fastenemy.h
+	"Enemy.h"
+
+1322860940 c:\users\james\desktop\f11-cs48-tower-defense78000\sidebar.h
+	"GameHandler.h"
+	"WorldObj.h"
+
+1322865597 c:\users\james\desktop\f11-cs48-tower-defense78000\enemyhandler.h
+	"Tower.h"
+	"Enemy.h"
+	"Location.h"
+	"SlowEnemy.h"
+	"FastEnemy.h"
+	"PathFinder.h"
+	"Player.h"
+	<SFML/Audio.hpp>
+	<cmath>
+	<iostream>
+
+1322812838 c:\users\james\desktop\f11-cs48-tower-defense78000\location.h
+	"WorldObj.h"
+
+1322869789 source:c:\users\james\desktop\f11-cs48-tower-defense78000\bullet.cpp
+	"Bullet.h"
+
+1322826952 source:c:\users\james\desktop\f11-cs48-tower-defense78000\bullettower.cpp
+	"BulletTower.h"
+
+1322812836 source:c:\users\james\desktop\f11-cs48-tower-defense78000\button.cpp
+	"Button.h"
+
+1322868997 source:c:\users\james\desktop\f11-cs48-tower-defense78000\enemy.cpp
+	"Enemy.h"
+
+1322869151 source:c:\users\james\desktop\f11-cs48-tower-defense78000\enemyhandler.cpp
+	"EnemyHandler.h"
+
+1322869434 source:c:\users\james\desktop\f11-cs48-tower-defense78000\fastenemy.cpp
+	"FastEnemy.h"
+
+1322869185 source:c:\users\james\desktop\f11-cs48-tower-defense78000\gamehandler.cpp
+	"GameHandler.h"
+
+1322812838 source:c:\users\james\desktop\f11-cs48-tower-defense78000\mainscreen.cpp
+	"MainScreen.h"
+
+1322812838 c:\users\james\desktop\f11-cs48-tower-defense78000\mainscreen.h
+	<SFML/Graphics.hpp>
+	<SFML/Window.hpp>
+	<SFML/Audio.hpp>
+	"Button.h"
+
+1322812838 source:c:\users\james\desktop\f11-cs48-tower-defense78000\pathfinder.cpp
+	"PathFinder.h"
+
+1322867383 source:c:\users\james\desktop\f11-cs48-tower-defense78000\player.cpp
+	"Player.h"
+
+1322812838 source:c:\users\james\desktop\f11-cs48-tower-defense78000\position.cpp
+	"Position.h"
+
+1322812838 source:c:\users\james\desktop\f11-cs48-tower-defense78000\projectile.cpp
+	"Projectile.h"
+
+1322826810 source:c:\users\james\desktop\f11-cs48-tower-defense78000\projectiletower.cpp
+	"ProjectileTower.h"
+
+1322870061 source:c:\users\james\desktop\f11-cs48-tower-defense78000\rocket.cpp
+	"Rocket.h"
+
+1322826946 source:c:\users\james\desktop\f11-cs48-tower-defense78000\rockettower.cpp
+	"RocketTower.h"
+
+1322863267 source:c:\users\james\desktop\f11-cs48-tower-defense78000\sidebar.cpp
+	"Sidebar.h"
+	<iostream>
+
+1322869503 source:c:\users\james\desktop\f11-cs48-tower-defense78000\slowenemy.cpp
+	"SlowEnemy.h"
+
+1322812836 source:c:\users\james\desktop\f11-cs48-tower-defense78000\tower.cpp
+	"Tower.h"
+
+1322861102 source:c:\users\james\desktop\f11-cs48-tower-defense78000\world.cpp
+	"World.h"
+
+1322812836 source:c:\users\james\desktop\f11-cs48-tower-defense78000\worldobj.cpp
+	"WorldObj.h"
+
+1322812838 source:c:\users\james\desktop\f11-cs48-tower-defense78000\main.cpp
+	"GameHandler.h"
+	"MainScreen.h"
+

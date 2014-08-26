@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="F11-CS48-Tower-Defense" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin\Debug\F11-CS48-Tower-Defense" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Debug\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="sfml-system" />
+					<Add library="sfml-window" />
+					<Add library="sfml-graphics" />
+					<Add library="sfml-audio" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin\Release\F11-CS48-Tower-Defense" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="AccessOptions.cpp" />
+		<Unit filename="AccessOptions.h" />
+		<Unit filename="Bullet.cpp" />
+		<Unit filename="Bullet.h" />
+		<Unit filename="BulletTower.cpp" />
+		<Unit filename="BulletTower.h" />
+		<Unit filename="Button.cpp" />
+		<Unit filename="Button.h" />
+		<Unit filename="Enemy.cpp" />
+		<Unit filename="Enemy.h" />
+		<Unit filename="EnemyHandler.cpp" />
+		<Unit filename="EnemyHandler.h" />
+		<Unit filename="FastEnemy.cpp" />
+		<Unit filename="FastEnemy.h" />
+		<Unit filename="GameHandler.cpp" />
+		<Unit filename="GameHandler.h" />
+		<Unit filename="MainScreen.cpp" />
+		<Unit filename="MainScreen.h" />
+		<Unit filename="PathFinder.cpp" />
+		<Unit filename="PathFinder.h" />
+		<Unit filename="Player.cpp" />
+		<Unit filename="Player.h" />
+		<Unit filename="Position.cpp" />
+		<Unit filename="Position.h" />
+		<Unit filename="Projectile.cpp" />
+		<Unit filename="Projectile.h" />
+		<Unit filename="ProjectileTower.cpp" />
+		<Unit filename="ProjectileTower.h" />
+		<Unit filename="Rocket.cpp" />
+		<Unit filename="Rocket.h" />
+		<Unit filename="RocketTower.cpp" />
+		<Unit filename="RocketTower.h" />
+		<Unit filename="Sidebar.cpp" />
+		<Unit filename="Sidebar.h" />
+		<Unit filename="SlowEnemy.cpp" />
+		<Unit filename="SlowEnemy.h" />
+		<Unit filename="Tower.cpp" />
+		<Unit filename="Tower.h" />
+		<Unit filename="World.cpp" />
+		<Unit filename="World.h" />
+		<Unit filename="WorldObj.cpp" />
+		<Unit filename="WorldObj.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
